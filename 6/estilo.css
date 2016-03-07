@@ -45,3 +45,16 @@ fieldset { margin: 20px 10px 0px 10px; }
 .Val110Dir { width: 110; float: right;	}
 
 .select { width: 100px; float: right; }
+
+.formaPag {	float: left;}
+.fsCartao {	width: 320px;margin: 0px; float: right;}
+
+.labVal100 { width: 100px; height: 40px; display: block;}
+.val380Dir { width: 380px;float: right; }
+.labVal210Esq { width: 212px;height: 40px;float: left; }
+.labVal170Dir { width: 170px;height: 40px;float: right; }
+.val120Dir {float: right;width: 120px;}
+
+.val20 {width: 20px;}
+.val40 {width: 40px;}
+.lab280Val {width: 280px;}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Mala com Alca</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body >
+	<header>
+		<img class="imgLogo" src="imagens/MalaRodasPeq.png" alt="">
+		<address class="ender">Rua da Bagagem,10 <br> Tel:(21) 1234-5678 <br>
+			<a  href="mailto:contato@malalca.com.br">contato@malalca.com.br</a> 
+		</address>
+	</header>	
+	<nav>
+		<ul>
+			<li><a target="_self" href="MalaComAlca.html">Inicial</a></li>
+			<li><a target="_self" href="Mochila.html">Mochila</a></li>
+			<li><a target="_self" href="Viagem.html">Viagem</a></li>
+			<li><a target="_self" href="Acessorios.html">Acessórios</a></li>
+			<li><a target="_self" href="Compras.html">Compras</a></li>
+		</ul>
+	</nav>
+	<section>
+		<form action="">
+			<fieldset>
+				
+				<legend>Dados de Identificação</legend>
+				<div class="">
+					<label for="nome">Nome:</label>
+					<input class="val380Dir" id="nome" name="nome" type="text">
+				</div>
+				<div class="">
+					<label for="endereco">Endereço:</label>
+					<input class="val380Dir" id="endereco" name"endereco" type="text">
+				</div>
+				<div class="">
+					<label for="email">Email:</label>
+					<input class="val380Dir" id="email" name="email" type="text">
+				</div>
+				<div class="lab280Val">
+					<label for="telefone">Telefone:</label>
+					<input id="telefone" name="telefone" type="text">
+				</div>
+				<div class="lab280Val">
+					<label for="cpf">Cpf:</label>
+					<input id="cpf" name="cpf" type="text">
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Forma de Pagamento</legend>
+				<div class="formaPag">
+					<input type="radio" name="forma" id="forma" value="cartao">Cartão
+					<input type="radio" name="forma" id="forma" value="cheque">Cheque
+					<input type="radio" name="forma" id="forma" value="dinheiro">Dinheiro	
+				</div>
+				<fieldset class="fsCartao">
+					<legend>Dados do Cartão</legend>
+					<div>
+						<input type="radio" name="bandeira"><img src="imagens/visa.png" alt="Visa">
+						<input type="radio" name="bandeira"><img src="imagens/master.png" alt="Master">
+						<input type="radio" name="bandeira"><img src="imagens/amex.png" alt="Amex">
+					</div>
+					<div>
+						<label for="">Validade:</label>
+						<input class="val20" type="text">/<input class="val40" type="text">
+					</div>
+					<div>
+						<label for="">Número:</label>
+						<input class="val40" type="text">.
+						<input class="val40" type="text">.
+						<input class="val40" type="text">.
+						<input class="val40" type="text">
+					</div>
+				</fieldset>
+			</fieldset>
+			
+			<div>
+				<button>Enviar</button>
+				<button>Limpar</button>
+			</div>
+		</form>
+
+	</section>	
+</body>
+</html>
