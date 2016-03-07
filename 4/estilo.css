@@ -1,0 +1,34 @@
+body {
+	background: #3C1808;
+	color: #F3EDA3;
+	font-size: 16px;
+	font-family: Verdana, Liberation;
+}
+
+header { display:block; margin-bottom: 1px; }
+nav { display:block; width: 20%; float: left; }
+section { display:block; width: 77%; float: right;}
+
+a {	text-decoration: none;	}
+a:link { color: #FFFF33;	}
+a:visited { color: #F3EDA3;	}
+
+ol, ul {line-height: 200%; 	}
+nav ul {color: #F3EDA3; list-style-type: square; margin-top: 30px;	}
+
+.ender { text-align: right;	font-size: 16px; line-height: 150%;	float: right; }-
+.apres { text-align: center; }
+
+.imgLogo {border-bottom: solid 3px; margin-bottom: 6px; padding-bottom: 15px}
+
+.tabInfo { 
+	border: solid; border-collapse: collapse; 
+	margin-top: 6px; background-color: #FFFFFF; color:#533218;
+	font-family: arial, ubuntu;
+}
+
+td, th { border: solid 2px #664422; padding: 6px 12px 6px 12px }
+
+.linTH { color: #FFFFFF; background-color: #907968; vertical-align: middle; text-align: center;  }
+.colTH { color: #573218; background-color: #EACEAC; text-align: left;	}
+.preco { color: #CC0000; font-weight: bold;	vertical-align: middle;	}

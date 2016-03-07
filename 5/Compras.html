@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Mala com Alca</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body >
+	<header>
+		<img class="imgLogo" src="imagens/MalaRodasPeq.png" alt="">
+		<address class="ender">Rua da Bagagem,10 <br> Tel:(21) 1234-5678 <br>
+			<a  href="mailto:contato@malalca.com.br">contato@malalca.com.br</a> 
+		</address>
+	</header>	
+	<nav>
+		<ul>
+			<li><a target="_self" href="MalaComAlca.html">Inicial</a></li>
+			<li><a target="_self" href="Mochila.html">Mochila</a></li>
+			<li><a target="_self" href="Viagem.html">Viagem</a></li>
+			<li><a target="_self" href="Acessorios.html">Acessórios</a></li>
+			<li><a target="_self" href="Compras.html">Compras</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h3>Compras</h3>
+		<form>
+			<fieldset>
+				<legend>Lista de Compras e Pagamento</legend>
+				<fieldset class="fsSelec">
+					<legend> Selecionado </legend>
+
+					<input class="txtDesc" name="selecionado" type="text" readonly>
+					<label for="preco">Preço: R$</label>
+					<input name="preco" type="text" id="" readonly>
+				</fieldset>
+				<fieldset style="border: none">
+					<textarea name="pedidos" id="" cols="30" rows="10" class="lisPedidos"></textarea>
+
+					<div style="text-align: right;">
+					<div class="labVal200Esq">
+						<label for="produto">Produto:</label>
+						<select name="produto" id="produto">
+							<option value="">---</option>
+							<optgroup label="Viagem">
+								<option value="Saurus">Saurus</option>
+								<option value="Vitoria">Vitoria</option>
+							</optgroup>
+							<optgroup  label="Para Laptop">
+								<option value="Sem Rodas">Sem Rodas</option>
+								<option value="Com Rodas">Com Rodas</option>
+							</optgroup>
+							<optgroup label="Escolar">
+								<option value="Bob Esponja">Bob Esponja</option>
+								<option value="Princesas">Princesas</option>
+								<option value="Batman">Batman</option>
+							</optgroup>
+							<optgroup label="Acessórios">
+								<option value="Cadeado">Cadeado</option>
+								<option value="Prota Dolar">Porta Dolar</option>
+								<option value="Almofada">Almofada</option>
+							</optgroup>
+						</select>
+					</div>
+
+					<div class="labVal200Esq">	
+					<label for="tamanho">Tamanho:	</label>
+						<select name="tamanho" id="tamanho">
+							<option value="">---</option>
+							<option value="Pequena">Pequena</option>
+							<option value="Media">Media</option>
+							<option value="Grande">Grande</option>
+						</select>	
+					</div>
+					<div class="labVal200Esq">
+						<label for="cor">Cor:	</label>
+						<select name="cor" id="cor">
+							<option value="">---</option>
+							<option value="Cinza">Cinza</option>
+							<option value="Vermelho">Vermelho</option>
+							<option value="Violeta">Violeta</option>
+						</select>
+					</div>
+				</div>
+					<div class="labVal200Dir">
+						<label for="">Total: R$</label>
+						<input name="total" type="text" readonly="readonly">
+					</div>
+				</fieldset>
+			</fieldset>
+			<div class="botoes">  
+				<button >Continuar</button>
+				<button >Limpar</button>
+			</div>
+		</form>
+	</section>	
+</body>
+</html>

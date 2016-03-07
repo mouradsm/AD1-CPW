@@ -1,0 +1,21 @@
+body {
+	background: #3C1808;
+	color: #F3EDA3;
+	font-size: 16px;
+	font-family: Verdana, Liberation;
+}
+
+header { display:block; margin-bottom: 1px; height: 80px; }
+nav { display:block; width: 20%; float: left; 		}
+section { display:block; width: 77%; float: right;	}
+
+a {	text-decoration: none;	}
+a:link { color: #FFFF33;	}
+a:visited { color: #F3EDA3;	}
+
+ol, ul { line-height: 200%;	}
+nav ul { color: #F3EDA3; list-style-type: square; margin-top: 30px;	}
+
+.ender { text-align: right;	font-size: 16px; line-height: 150%;	float: right; }
+.apres { text-align: center;}
+
